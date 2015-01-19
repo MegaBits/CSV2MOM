@@ -1,0 +1,9 @@
+name,range,targetProperty,conditions,uuid,summary
+Luck,0,Crit,"{""94989c90-1154-4be6-afb9-7438390b325b"":{""minDuration"":<int>,""maxDuration"":<int>,""statDelta"":<int>}}",ca3d4996-4fee-4e92-8a65-5d844bfd3e8b,
+Rally,0,Energy,"{""53acf4b9-bf53-40a7-b4a4-d7634b921076"":{""minDuration"":<INT>,""maxDuration"":<int>,""statDelta"":<int>}}",0dad730c-30e9-4172-93cd-da0d60fe4363,
+Fortitude,0,Health,"{""be9e809a-65ee-4c43-82b5-3d1567b29f99"":{""minDuration"":<INT>,""maxDuration"":<int>,""statDelta"":<int>}}",18467d72-cece-4b41-9fa5-aecfec25191e,
+Bully,0,Attack,"{""2dae8f97-a2ec-4c03-ab72-8e00a4874b4b"":{""minDuration"":<int>,""maxDuration"":<int>,""statDelta"":<int>}}",e402fc42-4947-4118-b62e-06def45d05ee,
+Stonewall,0,Defense,"{""8c101a5c-7eaa-46a1-92c6-1e9a19c6b350"":{""minDuration"":<int>,""maxDuration"":<int>,""statDelta"":<int>}}",ed38dfb2-3bc6-4f7c-bf41-20ea154b4f7e,
+Turbo,0,Speed,"{""5b1ab84c-31d1-4982-ab55-cdde42800477"":{""minDuration"":<int>,""maxDuration"":<int>,""statDelta"":<int>}}",87dff4d3-9612-4325-b4dc-f44bfc3a95f8,
+Hotshot,0,Accuracy,"{""e070d763-0151-4d9b-a3c8-bc6190d465ff"":{""minDuration"":<int>,""maxDuration"":<int>,""statDelta"":<int>}}",8ec94c11-04f2-40fc-8533-8363020b3dd2,
+Payday,1,money,,98417491-ae50-46cd-a410-1cbe70c97750,
