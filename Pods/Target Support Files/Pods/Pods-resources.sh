@@ -47,14 +47,35 @@ install_resource()
       ;;
   esac
 }
-          install_resource "MegaBits-Data/MBDAbility.csv"
-                    install_resource "MegaBits-Data/MBDCondition.csv"
-                    install_resource "MegaBits-Data/MBDModification.csv"
-                    install_resource "MegaBits-Data/MBDMonster.csv"
-                    install_resource "MegaBits-Data/MBDMove.csv"
-                    install_resource "MegaBits-Data/MBDStoreItem.csv"
-                    install_resource "MegaBits-Data/MBDTrainer.csv"
-          
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource 'MegaBits-Data/MBDAbility.csv'
+  install_resource 'MegaBits-Data/MBDCondition.csv'
+  install_resource 'MegaBits-Data/MBDEventRequirement.csv'
+  install_resource 'MegaBits-Data/MBDItem.csv'
+  install_resource 'MegaBits-Data/MBDModification.csv'
+  install_resource 'MegaBits-Data/MBDMonster.csv'
+  install_resource 'MegaBits-Data/MBDMove.csv'
+  install_resource 'MegaBits-Data/MBDObjective.csv'
+  install_resource 'MegaBits-Data/MBDQuest.csv'
+  install_resource 'MegaBits-Data/MBDReward.csv'
+  install_resource 'MegaBits-Data/MBDStoreItem.csv'
+  install_resource 'MegaBits-Data/MBDTrainer.csv'
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource 'MegaBits-Data/MBDAbility.csv'
+  install_resource 'MegaBits-Data/MBDCondition.csv'
+  install_resource 'MegaBits-Data/MBDEventRequirement.csv'
+  install_resource 'MegaBits-Data/MBDItem.csv'
+  install_resource 'MegaBits-Data/MBDModification.csv'
+  install_resource 'MegaBits-Data/MBDMonster.csv'
+  install_resource 'MegaBits-Data/MBDMove.csv'
+  install_resource 'MegaBits-Data/MBDObjective.csv'
+  install_resource 'MegaBits-Data/MBDQuest.csv'
+  install_resource 'MegaBits-Data/MBDReward.csv'
+  install_resource 'MegaBits-Data/MBDStoreItem.csv'
+  install_resource 'MegaBits-Data/MBDTrainer.csv'
+fi
+
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then
   rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${INSTALL_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

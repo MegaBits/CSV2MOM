@@ -9,13 +9,21 @@
 #import "MBCSVParser.h"
 #import <MagicalRecord/CoreData+MagicalRecord.h>
 #import <MagicalRecord/MagicalRecord.h>
+
+#import "MBDObject.h"
+#import "MBDAbility.h"
 #import "MBDCondition.h"
+#import "MBDEventRequirement.h"
+#import "MBDModification.h"
 #import "MBDMove.h"
+#import "MBDObjective.h"
+#import "MBDQuestGiver.h"
+#import "MBDItem.h"
+#import "MBDStoreItem.h"
 #import "MBDMonster.h"
 #import "MBDTrainer.h"
-#import "MBDStoreItem.h"
-#import "MBDAbility.h"
-#import "MBDModification.h"
+#import "MBDQuest.h"
+#import "MBDReward.h"
 
 CHCSVParserOptions MBCSVParserOptions = (CHCSVParserOptions)(CHCSVParserOptionsRecognizesBackslashesAsEscapes | CHCSVParserOptionsSanitizesFields);
 #define doItLive continue
@@ -35,14 +43,20 @@ NSString *const MBCSVJSONColumnIndicators[1024] = {
 {
     [MagicalRecord setupCoreDataStackWithStoreNamed: @"WorldData"];
     NSArray *classes = @[
-        [MBDCondition class],
-        [MBDAbility class],
-        [MBDMove class],
-        [MBDMonster class],
-        [MBDTrainer class],
-        [MBDStoreItem class],
-        [MBDModification class]
-    ];
+                         [MBDObject class],
+                         [MBDAbility class],
+                         [MBDCondition class],
+                         [MBDEventRequirement class],
+                         [MBDModification class],
+                         [MBDMove class],
+                         [MBDObjective class],
+                         [MBDQuestGiver class],
+                         [MBDItem class],
+                         [MBDStoreItem class],
+                         [MBDMonster class],
+                         [MBDTrainer class],
+                         [MBDQuest class],
+                         [MBDReward class]];
     
     for (Class class in classes)
     {
@@ -56,6 +70,10 @@ NSString *const MBCSVJSONColumnIndicators[1024] = {
 + (void)loadCSVForClass:(Class)class
 {
     NSURL *csvFileURL = [[NSBundle mainBundle] URLForResource: NSStringFromClass(class) withExtension: @"csv"];
+    if (!csvFileURL) {
+        return;
+    }
+    
     NSMutableArray *csvRows = [[NSArray arrayWithContentsOfCSVURL: csvFileURL options: MBCSVParserOptions] mutableCopy];
     
     NSArray *csvColumns = [csvRows firstObject];

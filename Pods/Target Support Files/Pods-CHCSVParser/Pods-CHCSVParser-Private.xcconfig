@@ -1,5 +1,5 @@
 #include "Pods-CHCSVParser.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/CHCSVParser" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CHCSVParser" "${PODS_ROOT}/Headers/Public/MagicalRecord" "${PODS_ROOT}/Headers/Public/MegaBits-Data"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CHCSVParser" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CHCSVParser" "${PODS_ROOT}/Headers/Public/MagicalRecord" "${PODS_ROOT}/Headers/Public/MegaBits-Data"
 OTHER_LDFLAGS = -ObjC
 PODS_ROOT = ${SRCROOT}

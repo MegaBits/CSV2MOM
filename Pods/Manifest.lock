@@ -8,16 +8,16 @@ PODS:
 DEPENDENCIES:
   - CHCSVParser
   - MagicalRecord
-  - MegaBits-Data (from `https://github.com/MegaBits/MegaBits-Data.git`, branch `master`)
+  - MegaBits-Data (from `https://github.com/MegaBits/MegaBits-Data.git`, branch `DatabaseRefactor`)
 
 EXTERNAL SOURCES:
   MegaBits-Data:
-    :branch: master
+    :branch: DatabaseRefactor
     :git: https://github.com/MegaBits/MegaBits-Data.git
 
 CHECKOUT OPTIONS:
   MegaBits-Data:
-    :commit: c034c2a659d017e731eddd8b2cd37068cac41e8d
+    :commit: 747579e4b093009e3f86b22cfdf4a7605094b5be
     :git: https://github.com/MegaBits/MegaBits-Data.git
 
 SPEC CHECKSUMS:
@@ -25,4 +25,4 @@ SPEC CHECKSUMS:
   MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
   MegaBits-Data: 32aeab7a95c44ce458754f4e725995441a2f531c
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.0.beta.2

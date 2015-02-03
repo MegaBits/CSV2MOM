@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2D5124A65DF24447A586DC23 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9351D74D47442DBA3D976F /* libPods.a */; };
+		49822C401A8138C7003EB80B /* MBDAbility.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C251A8138C7003EB80B /* MBDAbility.m */; };
+		49822C411A8138C7003EB80B /* MBDCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C271A8138C7003EB80B /* MBDCondition.m */; };
+		49822C421A8138C7003EB80B /* MBDEventRequirement.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C291A8138C7003EB80B /* MBDEventRequirement.m */; };
+		49822C431A8138C7003EB80B /* MBDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C2B1A8138C7003EB80B /* MBDItem.m */; };
+		49822C441A8138C7003EB80B /* MBDModification.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C2D1A8138C7003EB80B /* MBDModification.m */; };
+		49822C451A8138C7003EB80B /* MBDMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C2F1A8138C7003EB80B /* MBDMonster.m */; };
+		49822C461A8138C7003EB80B /* MBDMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C311A8138C7003EB80B /* MBDMove.m */; };
+		49822C471A8138C7003EB80B /* MBDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C331A8138C7003EB80B /* MBDObject.m */; };
+		49822C481A8138C7003EB80B /* MBDObjective.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C351A8138C7003EB80B /* MBDObjective.m */; };
+		49822C491A8138C7003EB80B /* MBDQuest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C371A8138C7003EB80B /* MBDQuest.m */; };
+		49822C4A1A8138C7003EB80B /* MBDQuestGiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C391A8138C7003EB80B /* MBDQuestGiver.m */; };
+		49822C4B1A8138C7003EB80B /* MBDReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C3B1A8138C7003EB80B /* MBDReward.m */; };
+		49822C4C1A8138C7003EB80B /* MBDStoreItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C3D1A8138C7003EB80B /* MBDStoreItem.m */; };
+		49822C4D1A8138C7003EB80B /* MBDTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49822C3F1A8138C7003EB80B /* MBDTrainer.m */; };
+		49822C4F1A813C7D003EB80B /* WorldData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 49822C4E1A813C7D003EB80B /* WorldData.xcdatamodel */; };
 		73C55A241978A61700285901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C55A231978A61700285901 /* Foundation.framework */; };
 		73C55A261978A61700285901 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C55A251978A61700285901 /* CoreGraphics.framework */; };
 		73C55A281978A61700285901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C55A271978A61700285901 /* UIKit.framework */; };
@@ -24,16 +39,6 @@
 		73C55A4F1978A61700285901 /* CSVtoMOMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C55A4E1978A61700285901 /* CSVtoMOMTests.m */; };
 		73C55A591978A77D00285901 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 73C55A581978A77D00285901 /* Podfile */; };
 		73C55A5C1978A86B00285901 /* MBCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C55A5B1978A86B00285901 /* MBCSVParser.m */; };
-		73C55A5F1978BA1E00285901 /* WorldData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73C55A5D1978BA1E00285901 /* WorldData.xcdatamodeld */; };
-		73FACF0E19FAD690007D5A75 /* MBDMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF0D19FAD690007D5A75 /* MBDMove.m */; };
-		73FACF1119FAD691007D5A75 /* MBDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF1019FAD691007D5A75 /* MBDObject.m */; };
-		73FACF1419FAD691007D5A75 /* MBDAbility.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF1319FAD691007D5A75 /* MBDAbility.m */; };
-		73FACF1719FAD691007D5A75 /* MBDCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF1619FAD691007D5A75 /* MBDCondition.m */; };
-		73FACF1A19FAD691007D5A75 /* MBDModification.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF1919FAD691007D5A75 /* MBDModification.m */; };
-		73FACF1D19FAD691007D5A75 /* MBDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF1C19FAD691007D5A75 /* MBDItem.m */; };
-		73FACF2019FAD691007D5A75 /* MBDTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF1F19FAD691007D5A75 /* MBDTrainer.m */; };
-		73FACF2319FAD691007D5A75 /* MBDStoreItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF2219FAD691007D5A75 /* MBDStoreItem.m */; };
-		73FACF2619FAD691007D5A75 /* MBDMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FACF2519FAD691007D5A75 /* MBDMonster.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,35 @@
 
 /* Begin PBXFileReference section */
 		1F9351D74D47442DBA3D976F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49822C241A8138C7003EB80B /* MBDAbility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDAbility.h; path = Models/MBDAbility.h; sourceTree = "<group>"; };
+		49822C251A8138C7003EB80B /* MBDAbility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDAbility.m; path = Models/MBDAbility.m; sourceTree = "<group>"; };
+		49822C261A8138C7003EB80B /* MBDCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDCondition.h; path = Models/MBDCondition.h; sourceTree = "<group>"; };
+		49822C271A8138C7003EB80B /* MBDCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDCondition.m; path = Models/MBDCondition.m; sourceTree = "<group>"; };
+		49822C281A8138C7003EB80B /* MBDEventRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDEventRequirement.h; path = Models/MBDEventRequirement.h; sourceTree = "<group>"; };
+		49822C291A8138C7003EB80B /* MBDEventRequirement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDEventRequirement.m; path = Models/MBDEventRequirement.m; sourceTree = "<group>"; };
+		49822C2A1A8138C7003EB80B /* MBDItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDItem.h; path = Models/MBDItem.h; sourceTree = "<group>"; };
+		49822C2B1A8138C7003EB80B /* MBDItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDItem.m; path = Models/MBDItem.m; sourceTree = "<group>"; };
+		49822C2C1A8138C7003EB80B /* MBDModification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDModification.h; path = Models/MBDModification.h; sourceTree = "<group>"; };
+		49822C2D1A8138C7003EB80B /* MBDModification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDModification.m; path = Models/MBDModification.m; sourceTree = "<group>"; };
+		49822C2E1A8138C7003EB80B /* MBDMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDMonster.h; path = Models/MBDMonster.h; sourceTree = "<group>"; };
+		49822C2F1A8138C7003EB80B /* MBDMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDMonster.m; path = Models/MBDMonster.m; sourceTree = "<group>"; };
+		49822C301A8138C7003EB80B /* MBDMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDMove.h; path = Models/MBDMove.h; sourceTree = "<group>"; };
+		49822C311A8138C7003EB80B /* MBDMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDMove.m; path = Models/MBDMove.m; sourceTree = "<group>"; };
+		49822C321A8138C7003EB80B /* MBDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDObject.h; path = Models/MBDObject.h; sourceTree = "<group>"; };
+		49822C331A8138C7003EB80B /* MBDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDObject.m; path = Models/MBDObject.m; sourceTree = "<group>"; };
+		49822C341A8138C7003EB80B /* MBDObjective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDObjective.h; path = Models/MBDObjective.h; sourceTree = "<group>"; };
+		49822C351A8138C7003EB80B /* MBDObjective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDObjective.m; path = Models/MBDObjective.m; sourceTree = "<group>"; };
+		49822C361A8138C7003EB80B /* MBDQuest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDQuest.h; path = Models/MBDQuest.h; sourceTree = "<group>"; };
+		49822C371A8138C7003EB80B /* MBDQuest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDQuest.m; path = Models/MBDQuest.m; sourceTree = "<group>"; };
+		49822C381A8138C7003EB80B /* MBDQuestGiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDQuestGiver.h; path = Models/MBDQuestGiver.h; sourceTree = "<group>"; };
+		49822C391A8138C7003EB80B /* MBDQuestGiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDQuestGiver.m; path = Models/MBDQuestGiver.m; sourceTree = "<group>"; };
+		49822C3A1A8138C7003EB80B /* MBDReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDReward.h; path = Models/MBDReward.h; sourceTree = "<group>"; };
+		49822C3B1A8138C7003EB80B /* MBDReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDReward.m; path = Models/MBDReward.m; sourceTree = "<group>"; };
+		49822C3C1A8138C7003EB80B /* MBDStoreItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDStoreItem.h; path = Models/MBDStoreItem.h; sourceTree = "<group>"; };
+		49822C3D1A8138C7003EB80B /* MBDStoreItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDStoreItem.m; path = Models/MBDStoreItem.m; sourceTree = "<group>"; };
+		49822C3E1A8138C7003EB80B /* MBDTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDTrainer.h; path = Models/MBDTrainer.h; sourceTree = "<group>"; };
+		49822C3F1A8138C7003EB80B /* MBDTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDTrainer.m; path = Models/MBDTrainer.m; sourceTree = "<group>"; };
+		49822C4E1A813C7D003EB80B /* WorldData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldData.xcdatamodel; sourceTree = "<group>"; };
 		73C55A201978A61700285901 /* CSVtoMOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSVtoMOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C55A231978A61700285901 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73C55A251978A61700285901 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,25 +104,6 @@
 		73C55A581978A77D00285901 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73C55A5A1978A86B00285901 /* MBCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCSVParser.h; sourceTree = "<group>"; };
 		73C55A5B1978A86B00285901 /* MBCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCSVParser.m; sourceTree = "<group>"; };
-		73C55A5E1978BA1E00285901 /* WorldData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldData.xcdatamodel; sourceTree = "<group>"; };
-		73FACF0C19FAD690007D5A75 /* MBDMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDMove.h; sourceTree = "<group>"; };
-		73FACF0D19FAD690007D5A75 /* MBDMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDMove.m; sourceTree = "<group>"; };
-		73FACF0F19FAD691007D5A75 /* MBDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDObject.h; sourceTree = "<group>"; };
-		73FACF1019FAD691007D5A75 /* MBDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDObject.m; sourceTree = "<group>"; };
-		73FACF1219FAD691007D5A75 /* MBDAbility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDAbility.h; sourceTree = "<group>"; };
-		73FACF1319FAD691007D5A75 /* MBDAbility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDAbility.m; sourceTree = "<group>"; };
-		73FACF1519FAD691007D5A75 /* MBDCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDCondition.h; sourceTree = "<group>"; };
-		73FACF1619FAD691007D5A75 /* MBDCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDCondition.m; sourceTree = "<group>"; };
-		73FACF1819FAD691007D5A75 /* MBDModification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDModification.h; sourceTree = "<group>"; };
-		73FACF1919FAD691007D5A75 /* MBDModification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDModification.m; sourceTree = "<group>"; };
-		73FACF1B19FAD691007D5A75 /* MBDItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDItem.h; sourceTree = "<group>"; };
-		73FACF1C19FAD691007D5A75 /* MBDItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDItem.m; sourceTree = "<group>"; };
-		73FACF1E19FAD691007D5A75 /* MBDTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDTrainer.h; sourceTree = "<group>"; };
-		73FACF1F19FAD691007D5A75 /* MBDTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDTrainer.m; sourceTree = "<group>"; };
-		73FACF2119FAD691007D5A75 /* MBDStoreItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDStoreItem.h; sourceTree = "<group>"; };
-		73FACF2219FAD691007D5A75 /* MBDStoreItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDStoreItem.m; sourceTree = "<group>"; };
-		73FACF2419FAD691007D5A75 /* MBDMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDMonster.h; sourceTree = "<group>"; };
-		73FACF2519FAD691007D5A75 /* MBDMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDMonster.m; sourceTree = "<group>"; };
 		B0EDDF86C063E93A5D8FF76E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D33ECCCD4E0D0317638824E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,7 +169,7 @@
 		73C55A291978A61700285901 /* CSVtoMOM */ = {
 			isa = PBXGroup;
 			children = (
-				73C55A5D1978BA1E00285901 /* WorldData.xcdatamodeld */,
+				49822C4E1A813C7D003EB80B /* WorldData.xcdatamodel */,
 				73C55A7E1978BAA200285901 /* Models */,
 				73C55A321978A61700285901 /* MBAppDelegate.h */,
 				73C55A331978A61700285901 /* MBAppDelegate.m */,
@@ -201,24 +216,34 @@
 		73C55A7E1978BAA200285901 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				73FACF2419FAD691007D5A75 /* MBDMonster.h */,
-				73FACF2519FAD691007D5A75 /* MBDMonster.m */,
-				73FACF2119FAD691007D5A75 /* MBDStoreItem.h */,
-				73FACF2219FAD691007D5A75 /* MBDStoreItem.m */,
-				73FACF1E19FAD691007D5A75 /* MBDTrainer.h */,
-				73FACF1F19FAD691007D5A75 /* MBDTrainer.m */,
-				73FACF1B19FAD691007D5A75 /* MBDItem.h */,
-				73FACF1C19FAD691007D5A75 /* MBDItem.m */,
-				73FACF1819FAD691007D5A75 /* MBDModification.h */,
-				73FACF1919FAD691007D5A75 /* MBDModification.m */,
-				73FACF1519FAD691007D5A75 /* MBDCondition.h */,
-				73FACF1619FAD691007D5A75 /* MBDCondition.m */,
-				73FACF1219FAD691007D5A75 /* MBDAbility.h */,
-				73FACF1319FAD691007D5A75 /* MBDAbility.m */,
-				73FACF0F19FAD691007D5A75 /* MBDObject.h */,
-				73FACF1019FAD691007D5A75 /* MBDObject.m */,
-				73FACF0C19FAD690007D5A75 /* MBDMove.h */,
-				73FACF0D19FAD690007D5A75 /* MBDMove.m */,
+				49822C241A8138C7003EB80B /* MBDAbility.h */,
+				49822C251A8138C7003EB80B /* MBDAbility.m */,
+				49822C261A8138C7003EB80B /* MBDCondition.h */,
+				49822C271A8138C7003EB80B /* MBDCondition.m */,
+				49822C281A8138C7003EB80B /* MBDEventRequirement.h */,
+				49822C291A8138C7003EB80B /* MBDEventRequirement.m */,
+				49822C2A1A8138C7003EB80B /* MBDItem.h */,
+				49822C2B1A8138C7003EB80B /* MBDItem.m */,
+				49822C2C1A8138C7003EB80B /* MBDModification.h */,
+				49822C2D1A8138C7003EB80B /* MBDModification.m */,
+				49822C2E1A8138C7003EB80B /* MBDMonster.h */,
+				49822C2F1A8138C7003EB80B /* MBDMonster.m */,
+				49822C301A8138C7003EB80B /* MBDMove.h */,
+				49822C311A8138C7003EB80B /* MBDMove.m */,
+				49822C321A8138C7003EB80B /* MBDObject.h */,
+				49822C331A8138C7003EB80B /* MBDObject.m */,
+				49822C341A8138C7003EB80B /* MBDObjective.h */,
+				49822C351A8138C7003EB80B /* MBDObjective.m */,
+				49822C361A8138C7003EB80B /* MBDQuest.h */,
+				49822C371A8138C7003EB80B /* MBDQuest.m */,
+				49822C381A8138C7003EB80B /* MBDQuestGiver.h */,
+				49822C391A8138C7003EB80B /* MBDQuestGiver.m */,
+				49822C3A1A8138C7003EB80B /* MBDReward.h */,
+				49822C3B1A8138C7003EB80B /* MBDReward.m */,
+				49822C3C1A8138C7003EB80B /* MBDStoreItem.h */,
+				49822C3D1A8138C7003EB80B /* MBDStoreItem.m */,
+				49822C3E1A8138C7003EB80B /* MBDTrainer.h */,
+				49822C3F1A8138C7003EB80B /* MBDTrainer.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -366,20 +391,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FACF2319FAD691007D5A75 /* MBDStoreItem.m in Sources */,
-				73FACF1719FAD691007D5A75 /* MBDCondition.m in Sources */,
-				73FACF1419FAD691007D5A75 /* MBDAbility.m in Sources */,
+				49822C411A8138C7003EB80B /* MBDCondition.m in Sources */,
+				49822C401A8138C7003EB80B /* MBDAbility.m in Sources */,
+				49822C461A8138C7003EB80B /* MBDMove.m in Sources */,
 				73C55A5C1978A86B00285901 /* MBCSVParser.m in Sources */,
-				73FACF2619FAD691007D5A75 /* MBDMonster.m in Sources */,
+				49822C4F1A813C7D003EB80B /* WorldData.xcdatamodel in Sources */,
+				49822C4D1A8138C7003EB80B /* MBDTrainer.m in Sources */,
+				49822C471A8138C7003EB80B /* MBDObject.m in Sources */,
 				73C55A301978A61700285901 /* main.m in Sources */,
-				73FACF0E19FAD690007D5A75 /* MBDMove.m in Sources */,
-				73FACF1D19FAD691007D5A75 /* MBDItem.m in Sources */,
-				73FACF1A19FAD691007D5A75 /* MBDModification.m in Sources */,
-				73C55A5F1978BA1E00285901 /* WorldData.xcdatamodeld in Sources */,
+				49822C441A8138C7003EB80B /* MBDModification.m in Sources */,
+				49822C431A8138C7003EB80B /* MBDItem.m in Sources */,
+				49822C451A8138C7003EB80B /* MBDMonster.m in Sources */,
 				73C55A3A1978A61700285901 /* MBViewController.m in Sources */,
+				49822C481A8138C7003EB80B /* MBDObjective.m in Sources */,
+				49822C4C1A8138C7003EB80B /* MBDStoreItem.m in Sources */,
+				49822C4B1A8138C7003EB80B /* MBDReward.m in Sources */,
+				49822C4A1A8138C7003EB80B /* MBDQuestGiver.m in Sources */,
+				49822C421A8138C7003EB80B /* MBDEventRequirement.m in Sources */,
 				73C55A341978A61700285901 /* MBAppDelegate.m in Sources */,
-				73FACF1119FAD691007D5A75 /* MBDObject.m in Sources */,
-				73FACF2019FAD691007D5A75 /* MBDTrainer.m in Sources */,
+				49822C491A8138C7003EB80B /* MBDQuest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,19 +628,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		73C55A5D1978BA1E00285901 /* WorldData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				73C55A5E1978BA1E00285901 /* WorldData.xcdatamodel */,
-			);
-			currentVersion = 73C55A5E1978BA1E00285901 /* WorldData.xcdatamodel */;
-			path = WorldData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 73C55A181978A61700285901 /* Project object */;
 }

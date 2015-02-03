@@ -1,0 +1,49 @@
+name,uuid,categoryType,conditions,mediaName,modifications,rarityType,skillRequirements,summary
+Max Potion,DA445497B03A4531BCB177936B1EEE32,1,"{""0d122d7d-0255-41e2-8e6e-a3a6f30307f3"":{""statDelta"":100}}",Max_Potion,,4,[{}],Completely heals one MegaBit.
+Max Card,5B7449C1C09A43FE94181022DA570518,2,"{""43C5CE327BB746D4A75C66F8B0C2C39D"":{""quality"":3}}",Max_Card,,4,[{}],Given as a prize to especially capable trainers. Sports a 100% capture rate.
+Random Cache,4F18205B220A4812889BDD81F4327284,0,"{""c0c69400-20c3-4bc4-8459-4a03bc3c9eb7"":{""count"":1, ""quality"":0}}",Random_Cache,,0,[{}],Contains a random selection of one or more items.
+Body Base 001,D0DB063B7BBF40758DBF7D8B1A154046,7,"{""d9bfa83b-6d87-4678-8ac6-558ababb4696"": {""spriteSheetName"": ""Overworld_001_Body""}}",Wearable_Body_001,,0,[{}],
+Body Base 002,E38168222B294227838AE7CC3781E5E2,7,"{""d9bfa83b-6d87-4678-8ac6-558ababb4696"": {""spriteSheetName"": ""Overworld_002_Body""}}",Wearable_Body_002,,0,[{}],
+Body Base 003,EFCB0F1FC0964E47A3409C0F7454B77F,7,"{""d9bfa83b-6d87-4678-8ac6-558ababb4696"": {""spriteSheetName"": ""Overworld_003_Body""}}",Wearable_Body_003,,0,[{}],
+Body Base 004,6CDF98A60652459486886DDA55F44D48,7,"{""d9bfa83b-6d87-4678-8ac6-558ababb4696"": {""spriteSheetName"": ""Overworld_004_Body""}}",Wearable_Body_004,,0,[{}],
+Body Base 005,DD658862C5C34EBD99F8C0CBDF1B67FE,7,"{""d9bfa83b-6d87-4678-8ac6-558ababb4696"": {""spriteSheetName"": ""Overworld_005_Body""}}",Wearable_Body_005,,0,[{}],
+Collector Clothes,082090C3AC784FCFBD32AF616CF4E3D2,9,"{""6411cd12-4b39-469f-90b2-509367e95eae"": {""spriteSheetName"": ""Collector_Clothes""}}",Wearable_Outfit_Collector_Clothes,,0,[{}],Perfect for carrying capture cards.
+Cross & Chain,B8314B3127FB44B2B63335DE5CCA20FB,9,"{""6411cd12-4b39-469f-90b2-509367e95eae"": {""spriteSheetName"": ""Cross_Chain""}}",Wearable_Outfit_Cross_Chain,,0,[{}],Black shirt with silver jewelry.
+Wetsuit F,550D681655D74837810E952E9255A882,9,"{""6411cd12-4b39-469f-90b2-509367e95eae"": {""spriteSheetName"": ""Wetsuit_F""}}",Wearable_Outfit_Wetsuit_F,,0,[{}],Wetsuit. Women's cut.
+Wetsuit M,AF2ACDDF72DA41068AA6B4A6924F1159,9,"{""6411cd12-4b39-469f-90b2-509367e95eae"": {""spriteSheetName"": ""Wetsuit_M""}}",Wearable_Outfit_Wetsuit_M,,0,[{}],Wetsuit. Men's cut.
+MB Adventurer Shirt,355B135077714B899F470E98B2CEF5DF,9,"{""6411cd12-4b39-469f-90b2-509367e95eae"": {""spriteSheetName"": ""MB_Adventurer_Shirt""}}",Wearable_Outfit_MB_Adventurer_Shirt,,0,[{}],MegaBits Adventurer Shirt
+Outfit Removal,Z6796D6C89724D2C813CF89A47025629,9,"{""6411cd12-4b39-469f-90b2-509367e95eae"": {""spriteSheetName"": ""Remove_Wearable""}}",Wearable_Remove_Wearable,,0,[{}],
+Bunbun Hat,F9725AE8F0204240BDA5BE3876198EBE,8,"{""96917430-47e9-4c5b-9007-1626bc9620b1"": {""spriteSheetName"": ""Bunbun_Hat""}}",Wearable_Hat_Bunbun_Hat,,0,[{}],MegaBits Adventurer hat.
+Bearskin Cap,E100FBEFDD5448D7933F422625E4FD7D,8,"{""96917430-47e9-4c5b-9007-1626bc9620b1"": {""spriteSheetName"": ""Bearskin_Cap""}}",Wearable_Hat_Bearskin_Cap,,0,[{}],Only given to the best bear trainers.
+Bee-Keeper Veil,6192D2178BB14439B6B85AEDB6E7F700,8,"{""96917430-47e9-4c5b-9007-1626bc9620b1"": {""spriteSheetName"": ""Bee_Kepper_Veil""}}",Wearable_Hat_Bee_Keeper_Veil,,0,[{}],Used to keep bees out of the wearer's face.
+Hot Head,41ABD37381584EBBA6C81F537E870A86,8,"{""96917430-47e9-4c5b-9007-1626bc9620b1"": {""spriteSheetName"": ""Hat_Hot_Head""}}",Wearable_Hat_Hot_Head,,0,[{}],The hair of a pyromaniac.
+Hat Removal,Z3EA50E224834120AA42ECB6F67D954C,8,"{""96917430-47e9-4c5b-9007-1626bc9620b1"": {""spriteSheetName"": ""Remove_Wearable""}}",Wearable_Remove_Wearable,,0,[{}],
+Puzzle Box,d2fc69d6-ae68-4438-addb-e1a21762a379,0,{},Puzzle_Box,,0,[{}],This odd box seems to almost pulse with energy.
+Regular Air Module,a5211ca5-8ab7-420c-ae3e-b170414ea0e4,12,{},,,1,[{}],
+Mega Air Module,13d4737b-10ea-477c-9f98-d4020712d651,12,{},,,1,[{}],
+Giga Air Module,7a55a7ae-ce7b-45a6-a0f2-1e15a7564f10,12,{},,,1,[{}],
+Regular Electricity Module,799b9587-0692-416c-a13f-78e7bdb2d45b,12,{},,,1,[{}],
+Mega Electricity Module,9c8a7528-e17f-4ce2-9e04-d07e3eb1c649,12,{},,,1,[{}],
+Giga Electricity Module,29726ba1-b357-4875-a529-bce2ea054517,12,{},,,1,[{}],
+Regular Fire Module,2c36dda9-37fd-4e82-931e-a9ee84de6459,12,{},,,1,[{}],
+Mega Fire Module,e1e85c9c-825a-4e80-9628-e4c942542db4,12,{},,,1,[{}],
+Giga Fire Module,6757c25e-d821-4abf-8f21-2f01f2c47e9a,12,{},,,1,[{}],
+Regular Grass Module,55c83025-17f0-40d8-8e6e-52d6c1f3ff0b,12,{},,,1,[{}],
+Mega Grass Module,3f718d32-f071-4a9a-9e13-34598133e928,12,{},,,1,[{}],
+Giga Grass Module,53b59b7b-f693-4d7c-be8c-bbc7ba6aa631,12,{},,,1,[{}],
+Regular Ice Module,a1879f5f-2af4-4c0f-a47f-7c76199b2799,12,{},,,1,[{}],
+Mega Ice Module,227d702a-5e0d-4f74-9607-b9f7adce42b8,12,{},,,1,[{}],
+Giga Ice Module,d8ac2d99-9607-46a2-9aa9-52d2b2df0b6f,12,{},,,1,[{}],
+Regular Rock Module,a79cc9b4-c313-4e0a-8a62-deee8d865b1c,12,{},,,1,[{}],
+Mega Rock Module,20883a82-0e06-49ac-876e-a6dfab23c1d8,12,{},,,1,[{}],
+Giga Rock Module,f383dc5e-1177-4c95-ad5a-8da68280d40f,12,{},,,1,[{}],
+Regular Spirit Module,3e382783-e04e-4a1a-ad1f-4a3d7104b020,12,{},,,1,[{}],
+Mega Spirit Module,452f052c-765e-4d12-a4f3-6a2faeefa28a,12,{},,,1,[{}],
+Giga Spirit Module,a46e0b0d-348b-49f6-adea-cfcf81472c09,12,{},,,1,[{}],
+Regular Strength Module,8cd0b0b3-b7e8-45ec-87d2-775f51f81f05,12,{},,,1,[{}],
+Mega Strength Module,42f5f573-1e77-4104-9101-b7e0b04b7ed7,12,{},,,1,[{}],
+Giga Strength Module,1bdb37ff-d96f-472e-8a57-6d648f185ef7,12,{},,,1,[{}],
+Regular Water Module,7c9c0ba6-1cbb-4923-8fec-19eee0da0dce,12,{},,,1,[{}],
+Mega Water Module,d6e42122-6192-4fcf-b8e9-06026543ce7a,12,{},,,1,[{}],
+Giga Water Module,fc5ea43f-faac-4900-b8d8-e66bb7a5536f,12,{},,,1,[{}],
+Money,499ae74c-9829-4af4-b291-3e6489358f4b,13,{},,,1,[{}],

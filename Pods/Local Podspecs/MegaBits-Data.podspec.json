@@ -1,0 +1,14 @@
+{
+  "name": "MegaBits-Data",
+  "version": "1.2.5",
+  "summary": "MegaBits CSVs",
+  "license": "MIT (example)",
+  "authors": {
+    "Patrick Perini": "pcperini@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MegaBits/MegaBits-Data.git",
+    "tag": "v1.2.5"
+  },
+  "resources": "*.csv"
+}
